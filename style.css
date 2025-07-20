@@ -9,12 +9,10 @@ body {
 }
 
 #app {
-    /* width: 600px; */
-    /* height: 360px; */
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(1.25);
+    transform: translate(-50%, -50%) scale(1.75);
     transform-origin: center center;
     /* overflow: hidden; */
     display: flex;
