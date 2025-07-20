@@ -1,0 +1,1 @@
+body{margin:0;padding:0;background-color:#ddd;width:100vw;height:100vh}#game-container{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) scale(1.75);transform-origin:center center;display:flex;justify-content:center;align-items:center}#game-container canvas{border-radius:8px;box-shadow:0 8px 32px #00000040,0 1.5px 6px #0000002e;image-rendering:pixelated}
