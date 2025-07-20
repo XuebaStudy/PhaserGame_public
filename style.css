@@ -6,15 +6,12 @@ body {
     height: 100vh;
 }
 
-/* 放大和居中效果移到 #game-container */
 #game-container {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(1.5); /* 放大倍数可调整 */
+    transform: translate(-50%, -50%) scale(1.75);
     transform-origin: center center;
-    width: 600px;
-    height: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +21,4 @@ body {
     border-radius: 8px;
     box-shadow: 0 8px 32px rgba(0,0,0,0.25), 0 1.5px 6px rgba(0,0,0,0.18);
     image-rendering: pixelated;
-    width: 100%;
-    height: 100%;
 }
